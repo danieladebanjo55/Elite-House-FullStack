@@ -1,0 +1,23 @@
+.main__list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+  padding: 20px 25px;
+  padding-top: 0 !important;
+  height: 45vh;
+
+  .list1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    .list__item {
+      font-size: 18px;
+      color: #000;
+      text-align: left;
+    }
+  }
+}
