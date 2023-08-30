@@ -3,7 +3,7 @@ import "./Packages.scss";
 
 export default function Packages() {
   const checkout = (item) => {
-    fetch("http://localhost:5000/create-checkout-session", {
+    fetch("https://elite-backend-m5v9.onrender.com/create-checkout-session", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
