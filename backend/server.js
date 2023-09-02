@@ -18,15 +18,6 @@ app.post("/create-checkout-session", async (req, res) => {
     const { item } = req.body;
 
     //https://elite-house-eight.vercel.app/
-    let success_url = "";
-    let cancel_url = "";
-    if (os.hostname() === "localhost") {
-      success_url = "http://127.0.0.1:5173";
-      cancel_url = "http://127.0.0.1:5173";
-    } else {
-      success_url = "https://elite-house-eight.vercel.app";
-      cancel_url = "https://elite-house-eight.vercel.app";
-    }
 
     const session = await stripe.checkout.sessions.create({
       payment_method_types: ["card", "alipay"],
@@ -289,8 +280,8 @@ app.post("/create-checkout-session", async (req, res) => {
         ],
       },
       locale: "zh-HK",
-      success_url: success_url,
-      cancel_url: cancel_url,
+      success_url: "http://127.0.0.1:5173",
+      cancel_url: "http://127.0.0.1:5173",
     });
 
     res.json({ url: session.url });
