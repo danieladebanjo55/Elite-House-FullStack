@@ -1,6 +1,6 @@
 import React from "react";
 import "./Item.scss";
-import checkmark from "./checkmark.svg";
+import checkmark from "./checked.png";
 
 export default function Item() {
   return (

@@ -15,9 +15,15 @@
     align-items: center;
     gap: 0.5rem;
     .list__item {
-      font-size: 18px;
+      font-size: 21px;
       color: #000;
       text-align: left;
     }
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .list__item {
+    font-size: 16px !important;
   }
 }

@@ -36,7 +36,7 @@ nav {
   .subscribe-link {
     border-radius: 3px;
     padding: 10px 20px;
-    background-color: #6bbbae;
+    background-color: #161616cf;
   }
 }
 
@@ -52,7 +52,7 @@ nav a {
 }
 
 nav a:first-child {
-  color: #6bbbae;
+  color: #161616cf;
   padding: 7px;
   font-size: 20px;
   font-weight: 800;
@@ -79,7 +79,11 @@ nav .nav-btn,
     display: block;
     visibility: visible;
     opacity: 1;
-    color: #000;
+    color: #161616fb;
+  }
+
+  nav a:first-child {
+    color: #fff;
   }
 
   header nav {
@@ -96,7 +100,7 @@ nav .nav-btn,
     align-items: center;
     justify-content: center;
     gap: 3.5rem;
-    background-color: #6bbbae;
+    background-color: #161616;
     transition: 1s;
     transform: translateY(-100vh);
   }
@@ -112,6 +116,7 @@ nav .nav-btn,
     position: absolute;
     top: 2rem;
     right: 2rem;
+    color: #fff !important;
   }
 
   nav a {
