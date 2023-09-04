@@ -1,0 +1,26 @@
+.master__benefit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: max-content;
+  border: 1px solid #000;
+  margin: 0 auto;
+  margin-top: 15vw;
+  padding: 10px 15px;
+  border-radius: 20px;
+  box-shadow: 2px 4px 5px 5px #2d2d2d96;
+
+  .master__context {
+  }
+}
+
+.fig__container {
+  padding: 25px 0;
+}
+
+@media only screen and (max-width: 480px) {
+  .master__benefit {
+    max-width: 80vw !important;
+  }
+}
