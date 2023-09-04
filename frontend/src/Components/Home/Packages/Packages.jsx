@@ -36,10 +36,19 @@ export default function Packages() {
           <div className="saving"></div>
           <div className="package__container">
             <h1 className="package__title">普通会员</h1>
+            <div className="package__list">
+              <ul>
+                <li>代办万事达卡</li>
+                <li>代办万新加坡数字银行账户</li>
+                <li>多功能会员电子钱包</li>
+                <li>旅游、消费、娱乐优惠</li>
+                <li>个人版社交电商系统 (付费选项)</li>
+              </ul>
+            </div>
             <h2 className="package__price">
               2000¥
               <s>
-                <sup>2500¥</sup>
+                <sup>3800¥</sup>
               </s>
             </h2>
             <div className="package__button">
@@ -59,10 +68,19 @@ export default function Packages() {
           </div>
           <div className="package__container">
             <h1 className="package__title">公司会员</h1>
+            <div className="package__list">
+              <ul>
+                <li>代办万事达卡</li>
+                <li>代办万新加坡数字银行公司账户</li>
+                <li>多功能会员电子钱包</li>
+                <li>接受加密支付</li>
+                <li>企业版社交电商系统 (付费选项)</li>
+              </ul>
+            </div>
             <h2 className="package__price">
               6000¥
               <s>
-                <sup>6500¥</sup>
+                <sup>8800¥</sup>
               </s>
             </h2>
             <div className="package__button">

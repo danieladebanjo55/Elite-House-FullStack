@@ -89,6 +89,15 @@
   }
 }
 
+.package__list {
+  display: flex;
+  text-align: left;
+
+  ul {
+    list-style-type: circle;
+  }
+}
+
 @media only screen and (max-width: 500px) {
   .main__package {
     height: fit-content;
