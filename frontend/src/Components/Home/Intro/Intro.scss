@@ -4,7 +4,25 @@
   align-items: center;
   padding: 15px 20px;
 
+  .intro__details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .intro__context {
     font-size: 20px !important;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .intro__details {
+    width: 65vw;
+    height: fit-content;
+    margin: 0 auto;
+
+    .intro__context {
+      font-size: 30px !important;
+    }
   }
 }
