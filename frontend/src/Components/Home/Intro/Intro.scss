@@ -3,6 +3,7 @@
   justify-content: center;
   align-items: center;
   padding: 15px 20px;
+  height: 100vh;
 
   .intro__details {
     display: flex;
@@ -23,6 +24,16 @@
 
     .intro__context {
       font-size: 30px !important;
+    }
+  }
+}
+
+@media only screen and (min-width: 640px) {
+  .intro__details {
+    height: fit-content;
+
+    .intro__context {
+      font-size: 25px !important;
     }
   }
 }
