@@ -1,16 +1,32 @@
 .main__footer {
-  padding: 25px 10px;
+  padding: 15px 10px;
   display: flex;
   justify-content: center;
   align-items: center;
 
   .footer__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
     p {
+      text-align: center;
       color: #000;
       font-size: 20px;
       font-weight: 600;
     }
   }
+}
+
+.link {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  text-align: right !important;
+}
+.loml {
+  font-size: 12px !important;
 }
 
 @media only screen and (max-width: 450px) {
