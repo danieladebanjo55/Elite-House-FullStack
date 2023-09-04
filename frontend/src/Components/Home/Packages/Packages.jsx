@@ -37,7 +37,7 @@ export default function Packages() {
           <div className="package__container">
             <h1 className="package__title">普通会员</h1>
             <div className="package__list">
-              <ul>
+              <ul className="my__list">
                 <li>代办万事达卡</li>
                 <li>代办万新加坡数字银行账户</li>
                 <li>多功能会员电子钱包</li>
@@ -69,7 +69,7 @@ export default function Packages() {
           <div className="package__container">
             <h1 className="package__title">公司会员</h1>
             <div className="package__list">
-              <ul>
+              <ul className="my__list">
                 <li>代办万事达卡</li>
                 <li>代办万新加坡数字银行公司账户</li>
                 <li>多功能会员电子钱包</li>
