@@ -5,6 +5,13 @@
   overflow-x: hidden;
 }
 
+@font-face {
+  font-family: myFirstFont;
+  src: url("./Matter-SemiBold.otf");
+}
+
+:root 
+
 body::-webkit-scrollbar{
   display: none;
 }
