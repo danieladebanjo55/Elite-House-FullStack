@@ -1,0 +1,10 @@
+.intro__main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 20px;
+
+  .intro__context {
+    font-size: 20px !important;
+  }
+}

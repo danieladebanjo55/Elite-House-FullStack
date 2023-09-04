@@ -6,6 +6,8 @@ import Packages from "./Packages/Packages";
 import Item from "./ItemList/Item";
 import Footer from "./Footer/Footer";
 import Section from "./Sections/Section";
+import Intro from "./Intro/Intro";
+import Coming from "./Packages/Coming";
 
 export default function Home() {
   return (
@@ -25,9 +27,11 @@ export default function Home() {
           <div className="right"></div>
         </div>
       </div>
+      <Intro />
       <Section />
       <Benefit />
       <Packages />
+      <Coming />
       <Item />
       <Footer />
     </>
