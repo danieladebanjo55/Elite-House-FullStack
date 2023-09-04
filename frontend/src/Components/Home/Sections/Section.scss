@@ -14,6 +14,7 @@
     justify-content: center;
     color: black;
     font-size: 40px;
+    margin-top: 20px;
   }
 
   .this__title {
@@ -28,10 +29,5 @@
   .section__content {
     display: flex;
     flex-direction: column;
-  }
-
-  .section__content:nth-child(2) {
-    display: flex;
-    flex-direction: column-reverse;
   }
 }

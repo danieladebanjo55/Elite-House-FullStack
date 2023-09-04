@@ -6,9 +6,7 @@
   flex-direction: row;
   width: 80vw;
   gap: 1.5rem;
-  border: 1px solid #000;
   border-radius: 16px;
-  background-color: #161616cf;
 
   .left__section {
     display: flex;
@@ -18,7 +16,7 @@
 
     .left__image {
       img {
-        width: 500%;
+        width: 100%;
         height: auto;
         background-position: center;
         background-size: cover;
@@ -35,7 +33,7 @@
     padding: 5px 15px;
 
     .right__heading {
-      color: #ffffff;
+      color: #000000;
       font-size: 28px;
       font-weight: 700;
       text-align: left !important;
@@ -46,7 +44,7 @@
       font-family: "Montserrat", sans-serif;
       font-weight: 400;
       font-size: 16px;
-      color: #ffffff;
+      color: #000000;
     }
   }
 }

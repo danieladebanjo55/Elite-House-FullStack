@@ -25,8 +25,8 @@ export default function Home() {
           <div className="right"></div>
         </div>
       </div>
-      <Benefit />
       <Section />
+      <Benefit />
       <Packages />
       <Item />
       <Footer />
