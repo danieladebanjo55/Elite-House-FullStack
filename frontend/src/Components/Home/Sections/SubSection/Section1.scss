@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  width: 75vw;
+  width: 80vw;
   height: fit-content;
 
   .right__section {
@@ -57,4 +57,20 @@
   .left__image {
     margin-top: 10px;
   }
+}
+
+@media only screen and (max-width: 700px) {
+  .main__section1__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left__image {
+    margin-top: 10px;
+  }
+}
+
+.main__section1__container:nth-of-type(2) {
+  display: flex;
+  flex-direction: column-reverse !important;
 }
