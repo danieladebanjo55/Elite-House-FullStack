@@ -16,15 +16,17 @@ export default function NavBar() {
         <img src={Logo} alt="Logo" />
       </h3>
       <nav ref={navRef}>
-        {/* <a href="#About"></a>
-        <a href="#Algorithm" className="subscribe-link"></a>
+        <a href="#About"></a>
+        <a href="#Algorithm" className="subscribe-link">
+          钱包连线
+        </a>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           <i className="fa fa-times"></i>
-        </button> */}
+        </button>
       </nav>
-      {/* <button className="nav-btn" onClick={showNavbar}>
+      <button className="nav-btn" onClick={showNavbar}>
         <i className="fa fa-bars"></i>
-      </button> */}
+      </button>
     </header>
   );
 }

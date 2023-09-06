@@ -19,10 +19,9 @@ export default function Home() {
           <div className="left">
             <h2 className="heading">Elite House</h2>
             <p className="main__subtext">
-              尚英社是全球首个将金融科技和区块链技术应用于高端会员计划的项目，为全球提供跨境支付、银行、金融服务、旅行、娱乐和
-              Web3服务。
+              尚英社是突破性将金融科技和区块链技术应用于高端会员计划的项目，为全球提供跨境支付、银行、金融服务、旅行、娱乐和Web3服务。
             </p>
-            <button className="hero__btn">Join Now</button>
+            <button className="hero__btn">登入</button>
           </div>
           <div className="right"></div>
         </div>
