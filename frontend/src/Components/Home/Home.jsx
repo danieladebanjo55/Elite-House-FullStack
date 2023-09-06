@@ -9,6 +9,8 @@ import Section from "./Sections/Section";
 import Intro from "./Intro/Intro";
 import Coming from "./Packages/Coming";
 
+import Image from "./image-left.png";
+
 export default function Home() {
   return (
     <>
@@ -23,7 +25,11 @@ export default function Home() {
             </p>
             <button className="hero__btn">登入</button>
           </div>
-          <div className="right"></div>
+          <div className="right">
+            <div className="my__left__image">
+              <img src={Image} alt="left-image" />
+            </div>
+          </div>
         </div>
       </div>
       <Intro />
