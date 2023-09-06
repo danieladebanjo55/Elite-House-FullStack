@@ -1,4 +1,5 @@
 .main__coming {
+  position: relative;
   margin-top: 35px;
   display: flex;
   justify-content: center;
@@ -43,5 +44,24 @@
       text-align: left !important;
       font-weight: 500;
     }
+  }
+}
+
+.special__price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // position: absolute;
+  // bottom: 310px;
+  // left: 280px;
+  background-color: #161616;
+  width: 170px;
+  height: fit-content;
+  padding: 15px 25px;
+  margin-top: 20px;
+
+  h3 {
+    font-weight: 600;
+    color: #fff;
   }
 }

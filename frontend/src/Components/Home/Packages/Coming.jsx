@@ -14,6 +14,9 @@ export default function Coming() {
               <li>资产配置渠道</li>
               <li>优质信托产品</li>
             </ul>
+            <div className="special__price">
+              <h3>接受USDT付款</h3>
+            </div>
           </div>
         </div>
       </div>
