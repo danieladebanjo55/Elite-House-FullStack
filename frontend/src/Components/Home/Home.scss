@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  background-image: url("../assets/header-bg.png");
+  // background-image: url("../assets/header-bg.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -15,7 +15,7 @@
     position: absolute;
     top: 0;
     bottom: 0;
-    background-color: #0f0e0e9c;
+    background-color: #0f0e0e00;
     width: 100vw;
     height: calc(100vh - 80px);
   }
@@ -24,7 +24,7 @@
     position: relative;
     display: flex;
     flex-direction: row;
-    color: white;
+    color: rgb(0, 0, 0);
     gap: 1rem;
 
     .left {
@@ -34,6 +34,7 @@
       padding-left: 100px;
 
       .heading {
+        color: #000;
         font-size: 45px;
         font-weight: 700;
       }
@@ -46,12 +47,14 @@
       }
 
       button {
+        color: #fff;
         font-size: 20px;
         font-weight: 700;
         margin-top: 10px;
         padding: 12px 16px;
         width: 150px;
         text-align: center;
+        border-radius: 5px;
         background-color: #161616;
       }
     }
