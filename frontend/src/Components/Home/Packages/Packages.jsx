@@ -1,7 +1,11 @@
 import React from "react";
 import "./Packages.scss";
 
+import { useState } from "react";
+
 export default function Packages() {
+  const [loading, setLoading] = useState(false);
+
   const checkout = (item) => {
     fetch("https://stripe-sl7j.onrender.com/create-checkout-session", {
       method: "POST",
@@ -14,13 +18,16 @@ export default function Packages() {
       }),
     })
       .then((res) => {
+        setLoading(true);
         if (res.ok) return res.json();
         return res.json().then((json) => Promise.reject(json));
       })
       .then(({ url }) => {
         window.location = url;
+        setLoading(false);
       })
       .catch((e) => {
+        setLoading(false);
         console.log(e.error);
       });
   };
@@ -62,7 +69,7 @@ export default function Packages() {
                   })
                 }
               >
-                登记
+                {loading ? <>Loading...</> : <>登记</>}
               </button>
             </div>
           </div>
@@ -94,7 +101,7 @@ export default function Packages() {
                   })
                 }
               >
-                登记
+                {loading ? <>Loading...</> : <>登记</>}
               </button>
             </div>
           </div>
